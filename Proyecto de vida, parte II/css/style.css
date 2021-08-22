@@ -1,0 +1,238 @@
+/*Para trabajar los estilos de mi pagina web utilice un selector universal para darle un margen a toda la pagina*/
+/*La estructura de mi pagina web toma un diseño de tipo estática*/
+/*La mayor parte de selectores que utilicé fueron los de clase, pero tambien implementé los de clase idetificador, y descendiente*/
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header, .main, footer {
+	width:90%;
+	max-width:945px;
+	margin:20px auto;
+}
+
+header nav{
+	font-size:14px;
+	background:#2874A6;
+	overflow:hidden;
+	margin:10px 2px;
+	box-shadow:0px 10px 0px #154360;
+}
+
+header nav ul{
+	list-style:none;	
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding: 30px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+
+header nav ul li a:hover{
+	background:#1F618D;
+}
+
+footer{
+	width:98%;
+	background:#2874A6;
+	box-shadow:0px 10px 0px #154360;
+	color:#fff;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;
+}
+
+.main .articles{
+	width:98%;
+	font-size:17px;
+	margin-right:1.5%;
+	text-align:justify;
+	float:left;
+	color:#000;
+	text-decoration:none;
+	padding:10px;
+	background-image:url(../images/logo.jpg); 
+	margin-bottom:20px;
+	text-decoration:none;
+}
+th{
+	color:#fff;
+	border:4px solid #154360;
+	background:#2874A6;
+}
+
+table td{
+	color:#fff;
+	border:4px solid #154360;
+	background:#2874A6;
+	padding:20px;
+}
+
+tr a{
+	width:100%;
+	border-radius:50px;
+	background:#1f53c5;
+	border:none;
+	padding:12px;
+	color:#fff;
+	margin:16px 0;
+	font-size:18px;
+	text-decoration: none;
+}
+
+table tr:hover{
+	color:#fff;
+	background:#2874A6;
+}
+
+table td:hover{
+	background:#1B4F72;
+	color:#fff;
+}
+
+div{
+	text-align:center;
+	font-size:20px;
+	color:#fff;
+	background:#2874A6;
+	margin:2px 200px;
+	border:10px dashed #154360;
+}
+
+div a{
+	text-decoration:none;
+	padding: 30px 20px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+
+.Registro{
+	width:90%;
+	max-width:400px;
+	background-image:url(../images/fondo.png);
+	padding:30px;
+	margin:auto;
+	margin-top:100px;
+	border-radius:15px;
+	font-family:'calibri';
+	color:#fff; 
+	box-shadow:9px 13px 37px #000;
+}
+
+.Registro h2{
+	font-size:27px;
+	margin-bottom:20px;
+}
+
+.main{
+	width:100%;
+	background:#24303C;
+	padding:10px;
+	border-radius:5px;
+	margin-bottom:16px;
+	border:1px solid #1f53c5;
+	font-family:'calibri';
+	font-size:20px;
+}
+
+.Registro p{
+	height:40px;
+	text-align:center;
+	font-size:18px;
+	line-height:40px;
+}
+
+.Registro a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.Registro a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.Registro .boton{
+	width:100%;
+	border-radius:15px;
+	background:#1f53c5;
+	border:none;
+	padding:12px;
+	color:#fff;
+	margin:16px 0;
+	font-size:18px;
+}
+
+.Seguridad{
+	width:90%;
+	max-width:400px;
+	background-image:url(../images/fondo.png);
+	padding:30px;
+	margin:auto;
+	margin-top:100px;
+	border-radius:50px;
+	font-family:'calibri';
+	color:#fff; 
+	box-shadow:7px 13px 37px #000;
+}
+
+.Seguridad h2{
+	font-size:27px;
+	margin-bottom:20px;
+}
+
+.Seguridad p{
+	height:40px;
+	text-align:center;
+	font-size:18px;
+	line-height:40px;
+}
+
+.Seguridad a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.Seguridad a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+
+.Seguridad .boton{
+	width:100%;
+	border-radius:50px;
+	background:#1f53c5;
+	border:none;
+	padding:12px;
+	color:#fff;
+	margin:16px 0;
+	font-size:18px;
+}
+ 
+
+@media (max-width: 425px){
+	.Registro{
+		font.size:1.8rem;
+	}
+}
+
+@media (max-width: 425px){
+	.Seguridad{
+		font.size:1.8rem;
+	}
+}
+
+@media (max-width:425px){
+	.header .li{
+		grid-template-columns:1fr;
+		font-size:1.8rm;
+	}
+}
